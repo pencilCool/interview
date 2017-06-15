@@ -1,11 +1,12 @@
 # interview
 
-```
+
 ## oc 中 weak 是怎么实现的
 
 - 带有 __weak 的对象所引用的对象被废弃的时候，变量赋值nil
 - __weak ，自动将对象添加到了 autoreleasepool里面
 
+```
 {
   id __weak obj1 = obj;
 }
